@@ -20,8 +20,18 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
-    "@mantine/core": "7.14.3",
-    "@mantine/hooks": "7.14.3",
+    "@mantine/core": "^7.14.3",
+    "@mantine/hooks": "^7.14.3",
+    "@mantine/tiptap": "^7.14.3",
+    "@tiptap/extension-highlight": "^2.10.3",
+    "@tiptap/extension-link": "^2.10.3",
+    "@tiptap/extension-subscript": "^2.10.3",
+    "@tiptap/extension-superscript": "^2.10.3",
+    "@tiptap/extension-text-align": "^2.10.3",
+    "@tiptap/extension-underline": "^2.10.3",
+    "@tiptap/pm": "^2.10.3",
+    "@tiptap/react": "^2.10.3",
+    "@tiptap/starter-kit": "^2.10.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.1"
@@ -35,6 +45,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^22.10.1",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
